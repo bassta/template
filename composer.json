@@ -1,0 +1,29 @@
+{
+    "name": "vstashko/template",
+    "description": "Simple template",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Vasily Stashko",
+            "email": "vasily.stashko@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.3",
+        "psr/event-dispatcher": "^1.0"
+    },
+    "require-dev": {
+        "pds/skeleton": "^1.0",
+        "phpunit/phpunit": "^9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\": "tests"
+        }
+    }
+}
