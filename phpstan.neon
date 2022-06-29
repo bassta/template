@@ -1,0 +1,9 @@
+parameters:
+  level: max
+  paths:
+    - src
+    - tests
+  ignoreErrors:
+    - 
+      message: '#^Return type \(void\) of method App\\Application\\EventDispatcherWithSubscribers::dispatch\(\) should be compatible with return type \(object\) of method Psr\\EventDispatcher\\EventDispatcherInterface::dispatch\(\)$#'
+      path: src/Application/EventDispatcherWithSubscribers.php
